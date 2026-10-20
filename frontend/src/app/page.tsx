@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { 
   ShieldCheck, 
@@ -10,7 +12,7 @@ import {
   Calculator, 
   CheckCircle2, 
   XCircle, 
-  Clock, 
+  Clock,
   AlertCircle 
 } from 'lucide-react';
 
