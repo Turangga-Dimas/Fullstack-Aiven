@@ -176,17 +176,6 @@ export default function DashboardPage() {
               <DollarSign className="w-4 h-4" />
               <span>Simulasi Kredit Angsuran</span>
             </button>
-
-            <button
-              onClick={() => setIsAivenModalOpen(true)}
-              className="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-teal-400 hover:bg-teal-950/40 border border-teal-500/20 transition"
-            >
-              <div className="flex items-center gap-3">
-                <Database className="w-4 h-4 text-teal-400" />
-                <span>Panduan MySQL Aiven</span>
-              </div>
-              <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-            </button>
           </nav>
         </div>
 
@@ -215,13 +204,6 @@ export default function DashboardPage() {
               ? 'Terhubung aman via SSL Cloud'
               : 'Klik untuk panduan koneksi Aiven'}
           </p>
-
-          <button
-            onClick={() => setIsAivenModalOpen(true)}
-            className="mt-2.5 w-full py-1.5 text-[11px] font-semibold text-slate-300 hover:text-white bg-slate-800 hover:bg-slate-700 rounded-lg transition border border-slate-700"
-          >
-            Pengaturan Aiven
-          </button>
         </div>
       </aside>
 
